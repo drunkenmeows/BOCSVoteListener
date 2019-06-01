@@ -1,0 +1,16 @@
+name: BOCSVoteListener
+main: me.drunkenmeows.bocsvotelistener.BOCSVoteListener
+softdepend: [Votifier]
+version: '1.00'
+author: drunkenmeows
+description: 'Give a random enchanted book to a voter.'
+
+commands:
+   bocsvltest:
+      description: Join a hunt
+      permissions: bocsvotelistener.admin
+      
+Permissions:
+    bocsvotelistener.admin:
+        description: Are they an admin.
+        default: OP

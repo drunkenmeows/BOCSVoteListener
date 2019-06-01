@@ -1,0 +1,45 @@
+
+
+Votesites:
+  -voteMinestatus
+  -votePMC
+
+voteMinestatus:
+  serviceName: 'minestatus'
+  Rewards:
+      #Item -> 'id;data;amount;%chance' 
+      #Item with enchant -> 'id;data;amount;enchantment;level;%chance'
+      #Money -> '$;amount-amount;%chance'
+      Items:
+        #3 gold block
+        - 41;0;3;100
+        #1 gold block
+        - 267;56;1;sharpness;2;65
+        #4th gold block 25% chance
+        - 41;0;1;25
+        #5th gold block 25% chance
+        - 41;0;1;25
+        #diamond 25%
+        - 264;0;1;25
+        #money between 200 and 500 25% chance
+        - $;100-300;25
+
+VotePMC:
+  servicename: 'planetminecraft'
+  Rewards:
+      #Item -> 'id;data;amount;%chance' 
+      #Item with enchant -> 'id;data;amount;enchantment;level;%chance'
+      #Money -> '$;amount-amount;%chance'
+      Items:
+        #3 gold block
+        - 41;0;3;100
+        #1 gold block
+        - 267;56;1;sharpness;2;65
+        #4th gold block 25% chance
+        - 41;0;1;25
+        #5th gold block 25% chance
+        - 41;0;1;25
+        #diamond 25%
+        - 264;0;1;25
+        #money between 200 and 500 25% chance
+        - $;100-300;25
